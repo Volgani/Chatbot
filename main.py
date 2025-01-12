@@ -1,4 +1,3 @@
-!pip install -qq langchain wget llama-index cohere llama-cpp-python
 
 import wget 
 
