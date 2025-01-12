@@ -7,7 +7,6 @@ def bar_custom(current, total, width=80):
 model_url = "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q2_K.gguf"
 wget.download(model_url, bar=bar_custom)
 
-%%writefile app.py
 import streamlit as st 
 from llama_index import (
   SimpleDirectoryReader,
